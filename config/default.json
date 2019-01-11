@@ -1,8 +1,12 @@
 {
-  "API-Server": {
-    "protocol": "http",
-    "host": "184.172.233.10:30120"
-  },
   "APIs": {
+  "catalog": {
+    "host": "lightblue-catalog-juricazerjav.eu-gb.mybluemix.net",
+    "base_path": "/micro"
+  },
+  "customer": {
+    "host": "lightblue-customer-juricazerjav.eu-gb.mybluemix.net",
+    "base_path": "/micro"
+  }
   }
 }
